@@ -1,0 +1,14 @@
+﻿# Start
+Now going to show the calendar.
+@showUI Calendar
+Now setting the date.
+@set day=12
+@set month=JANUARY
+The date should be January 12th.
+@set day+1
+The day should increase by one.
+@set month=FEBRUARY
+The month should change to February.
+Now hiding the calendar.
+@hideUI Calendar
+@goto .Start
