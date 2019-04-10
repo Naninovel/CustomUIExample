@@ -405,3 +405,4 @@ MonoBehaviour:
   isVisibleOnAwake: 0
   fadeTime: 0.3
   hideOnGameLoad: 1
+  saveVisibilityState: 1
