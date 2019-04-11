@@ -5,7 +5,7 @@
 /[Bb]uilds/
 .gradle*
 /Assets/AssetStoreTools*
-/Assets/ThirdParty*
+/Assets/ThirdParty/*
 !/Assets/ThirdParty/NaninovelData*
 
 # Allow third-party dlls
