@@ -5,6 +5,6 @@
     ],
     "values": [
         "{\n    \"keys\": [],\n    \"values\": []\n}",
-        "{\n    \"PlayedScriptRegister\": {\n        \"playedScripts\": [\n            {\n                \"ScriptName\": \"TestScript\",\n                \"PlayedIndexes\": [\n                    {\n                        \"startIndex\": 0,\n                        \"endIndex\": 12\n                    }\n                ]\n            }\n        ]\n    }\n}"
+        "{\n    \"PlayedScriptRegister\": {\n        \"playedScripts\": [\n            {\n                \"ScriptName\": \"TestScript\",\n                \"PlayedIndexes\": [\n                    {\n                        \"startIndex\": 0,\n                        \"endIndex\": 17\n                    }\n                ]\n            }\n        ]\n    }\n}"
     ]
 }
