@@ -3,12 +3,23 @@ Now going to show the calendar.
 @showUI Calendar
 Now setting the date.
 @set day=12
-@set month=JANUARY
+@set month=1
 The date should be January 12th.
-@set day+1
+@set day=day+1
 The day should increase by one.
-@set month=FEBRUARY
+@set month=2
 The month should change to February.
 Now hiding the calendar.
 @hideUI Calendar
-@goto .Start
+
+Now starting the month loop.
+@showUI Calendar
+
+# Loop
+
+@set month=month+1
+@if month>12 set:month=1
+
+Next month.
+
+@goto .Loop
