@@ -1,4 +1,4 @@
-﻿# Start
+# Start
 Now going to show the calendar.
 @showUI Calendar
 Now setting the date.
@@ -18,7 +18,7 @@ Now starting the month loop.
 # Loop
 
 @set month=month+1
-@if month>12 set:month=1
+@set month=1 if:month>12
 
 Next month.
 
