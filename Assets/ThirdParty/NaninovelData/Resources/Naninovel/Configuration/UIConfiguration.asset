@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78d763f94cb38c34eba2d7eb3eebc65d, type: 3}
   m_Name: UIConfiguration
   m_EditorClassIdentifier: 
+  Loader:
+    PathPrefix: UI
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   ObjectsLayer: 5
   RenderMode: 1
   SortingOffset: 1
-  CustomUI:
-  - {fileID: 6559783923391384975, guid: c3d71377e1375cf41b713abae269c640, type: 3}

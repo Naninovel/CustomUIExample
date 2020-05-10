@@ -12,25 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38acf29c06b5d7e41aecac8361cc7e57, type: 3}
   m_Name: ChoiceHandlersConfiguration
   m_EditorClassIdentifier: 
+  DefaultEasing: 0
+  AutoShowOnModify: 1
   DefaultHandlerId: ButtonList
   DefaultMetadata:
-    Implementation: Naninovel.UIChoiceHandler
-    LoaderConfiguration:
+    Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    Loader:
       PathPrefix: ChoiceHandlers
-      ProviderTypes: 0000000001000000
-    guid: cdb8fa97-9740-4341-a308-2ea062c5a2a5
+      ProviderTypes:
+      - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    guid: f0defb20-4497-444a-a334-25830e6becda
   Metadata:
     ids:
     - ButtonList
     - ButtonArea
     metas:
-    - Implementation: Naninovel.UIChoiceHandler
-      LoaderConfiguration:
-        PathPrefix: Naninovel/ChoiceHandlers
-        ProviderTypes: 0000000001000000
-      guid: 30ef6453-750e-451e-b17f-e7ae73ddd7c5
-    - Implementation: Naninovel.UIChoiceHandler
-      LoaderConfiguration:
-        PathPrefix: Naninovel/ChoiceHandlers
-        ProviderTypes: 0000000001000000
-      guid: c2245184-3450-4ab3-84c9-cb4e4d41c64e
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: d9c21029-d07f-4919-84d6-258be3a1cb47
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 963e215a-b6cb-4624-ac84-61537094381d

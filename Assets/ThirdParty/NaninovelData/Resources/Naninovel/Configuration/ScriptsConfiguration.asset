@@ -14,12 +14,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Loader:
     PathPrefix: Scripts
-    ProviderTypes: 0000000001000000
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  InitializationScript: 
+  TitleScript: Title
   StartGameScript: TestScript
+  AutoAddScripts: 1
+  HotReloadScripts: 1
+  CountTotalCommands: 0
+  EnableVisualEditor: 1
+  HideUnusedParameters: 1
+  InsertLineKey: 32
+  InsertLineModifier: 2
+  SaveScriptKey: 115
+  SaveScriptModifier: 2
+  EditorPageLength: 1000
+  EditorCustomStyleSheet: {fileID: 0}
+  GraphOrientation: 1
+  GraphAutoAlignPadding: {x: 10, y: 0}
+  GraphCustomStyleSheet: {fileID: 0}
   EnableCommunityModding: 0
   ExternalLoader:
     PathPrefix: Scripts
-    ProviderTypes: 01000000
+    ProviderTypes:
+    - Naninovel.LocalResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   EnableNavigator: 1
   ShowNavigatorOnInit: 0
   NavigatorSortOrder: 900

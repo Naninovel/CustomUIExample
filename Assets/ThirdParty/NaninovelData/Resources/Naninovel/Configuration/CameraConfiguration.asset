@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: CameraConfiguration
   m_EditorClassIdentifier: 
   ReferenceResolution: {x: 1920, y: 1080}
+  AutoCorrectOrthoSize: 1
+  DefaultOrthoSize: 5.35
   InitialPosition: {x: 0, y: 0, z: -10}
+  Orthographic: 1
   CustomCameraPrefab: {fileID: 0}
   UseUICamera: 1
   CustomUICameraPrefab: {fileID: 0}

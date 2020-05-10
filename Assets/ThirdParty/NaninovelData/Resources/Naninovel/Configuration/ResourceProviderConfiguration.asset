@@ -12,5 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0142252c53e169c43a4916355d7e0109, type: 3}
   m_Name: ResourceProviderConfiguration
   m_EditorClassIdentifier: 
-  LogResourceLoading: 1
-  LocalRootPath: Resources
+  ResourcePolicy: 0
+  DynamicPolicySteps: 25
+  OptimizeLoadingPriority: 1
+  LogResourceLoading: 0
+  EnableBuildProcessing: 1
+  UseAddressables: 1
+  AutoBuildBundles: 1
+  ExtraLabels: []
+  LocalRootPath: '%DATA%/Resources'
+  ProjectRootPath: Naninovel

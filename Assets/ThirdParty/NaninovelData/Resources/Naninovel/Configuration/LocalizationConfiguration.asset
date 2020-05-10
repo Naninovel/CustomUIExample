@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7211bd8c0ca06c4793502a6e355d374, type: 3}
   m_Name: LocalizationConfiguration
   m_EditorClassIdentifier: 
-  LoaderConfiguration:
+  Loader:
     PathPrefix: Localization
-    ProviderTypes: 0000000001000000
-  DefaultLocale: en
+    ProviderTypes:
+    - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  SourceLocale: en
+  DefaultLocale: 

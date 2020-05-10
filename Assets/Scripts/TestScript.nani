@@ -2,10 +2,9 @@
 Now going to show the calendar.
 @showUI Calendar
 Now setting the date.
-@set day=12
-@set month=1
+@set day=12;month=1
 The date should be January 12th.
-@set day=day+1
+@set day++
 The day should increase by one.
 @set month=2
 The month should change to February.
@@ -17,7 +16,7 @@ Now starting the month loop.
 
 # Loop
 
-@set month=month+1
+@set month++
 @set month=1 if:month>12
 
 Next month.
