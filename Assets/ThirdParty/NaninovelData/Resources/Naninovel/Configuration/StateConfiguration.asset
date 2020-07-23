@@ -25,9 +25,9 @@ MonoBehaviour:
   EnableStateRollback: 1
   StateRollbackSteps: 1024
   SavedRollbackSteps: 128
-  GameStateHandler: Naninovel.GameStateSlotManager, Elringus.Naninovel.Runtime, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  GlobalStateHandler: Naninovel.GlobalStateSlotManager, Elringus.Naninovel.Runtime,
+  GameStateHandler: Naninovel.IOGameStateSlotManager, Elringus.Naninovel.Runtime,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  SettingsStateHandler: Naninovel.SettingsSlotManager, Elringus.Naninovel.Runtime,
+  GlobalStateHandler: Naninovel.IOGlobalStateSlotManager, Elringus.Naninovel.Runtime,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  SettingsStateHandler: Naninovel.IOSettingsSlotManager, Elringus.Naninovel.Runtime,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
