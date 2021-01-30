@@ -718,7 +718,7 @@ Canvas:
   m_GameObject: {fileID: 1559046370377976}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -760,6 +760,7 @@ MonoBehaviour:
   blockInputWhenVisible: 1
   allowedSamplers: []
   modalUI: 1
+  fontChangeConfiguration: []
 --- !u!225 &225474842813907114
 CanvasGroup:
   m_ObjectHideFlags: 0
