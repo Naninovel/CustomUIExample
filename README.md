@@ -1,8 +1,5 @@
-# Setup
+Documentation: https://naninovel.com/guide/user-interface.html#ui-customization
 
-1. Import [Naninovel visual novel engine](https://u3d.as/1pg9).
-2. Run in editor or build the game.
+Be aware, that Naninovel package is not distributed with the project, hence compilation errors will be produced after opening it for the first time; import Naninovel from the Asset Store to resolve the issues.
 
-# Guide
-
-https://naninovel.com/guide/user-interface.html#ui-customization
+If you have any questions or issues, [contact the support](https://naninovel.com/support).
