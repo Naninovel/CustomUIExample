@@ -16,7 +16,7 @@ public class CustomGameStateSlot : GameStateSlot
 
     private string GetLastPrintedText ()
     {
-        // Find state of a fist printer actor that is visible and has something printed.
+        // Find state of the first printer actor that is visible and has something printed.
         var printerState = State
             ?.GetState<ActorManager<ITextPrinterActor, TextPrinterState, TextPrinterMetadata, TextPrintersConfiguration>.GameState>()
             ?.ActorsMap.Values.FirstOrDefault(s => s.Visible && !string.IsNullOrWhiteSpace(s.Text));
