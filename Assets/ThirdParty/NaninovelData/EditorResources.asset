@@ -168,3 +168,8 @@ MonoBehaviour:
     - name: TitleBackground
       pathPrefix: Backgrounds/MainBackground
       guid: 3fe06545894d714488ce54e32f0ef6e5
+  - Id: ChoiceHandlers/cf43af49-119a-4f82-aeb6-f36d6485068d
+    Resources:
+    - name: NewChoiceHandler
+      pathPrefix: ChoiceHandlers
+      guid: 5e91fcd9dccc7634794f04c1b8f29854

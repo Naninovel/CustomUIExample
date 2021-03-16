@@ -1,4 +1,7 @@
 # Start
+Testing custom choice handler.
+@choice "Glow Test"
+@stop
 Now going to show the calendar.
 @showUI Calendar
 Now setting the date.

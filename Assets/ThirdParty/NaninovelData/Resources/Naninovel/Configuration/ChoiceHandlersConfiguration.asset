@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultEasing: 0
   AutoShowOnModify: 1
-  DefaultHandlerId: ButtonList
+  DefaultHandlerId: NewChoiceHandler
   DefaultMetadata:
     Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -26,10 +26,13 @@ MonoBehaviour:
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
     guid: f0defb20-4497-444a-a334-25830e6becda
+    customData:
+      id: 0
   Metadata:
     ids:
     - ButtonList
     - ButtonArea
+    - NewChoiceHandler
     metas:
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -41,6 +44,8 @@ MonoBehaviour:
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       guid: d9c21029-d07f-4919-84d6-258be3a1cb47
+      customData:
+        id: 0
     - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -51,3 +56,21 @@ MonoBehaviour:
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
       guid: 963e215a-b6cb-4624-ac84-61537094381d
+      customData:
+        id: 0
+    - Implementation: Naninovel.UIChoiceHandler, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: ChoiceHandlers
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: cf43af49-119a-4f82-aeb6-f36d6485068d
+      customData:
+        id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }
