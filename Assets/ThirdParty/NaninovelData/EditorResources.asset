@@ -32,7 +32,7 @@ MonoBehaviour:
     Resources:
     - name: Chat
       pathPrefix: TextPrinters
-      guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
+      guid: 87ee2b1e3028c3c42ab512305bf801da
   - Id: TextPrinters/189098c3-cfc9-4773-986c-68cac45d1d0f
     Resources:
     - name: Bubble

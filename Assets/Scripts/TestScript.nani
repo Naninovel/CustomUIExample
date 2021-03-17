@@ -1,4 +1,9 @@
 # Start
+Testing custom choice message with date.
+@printer Chat
+Kohaku: (10:05) Good morning!
+Yuko: (22:14) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis felis lobortis purus facilisis malesuada. 
+@printer Dialogue
 Testing custom choice handler.
 @choice "Glow Test"
 @stop
