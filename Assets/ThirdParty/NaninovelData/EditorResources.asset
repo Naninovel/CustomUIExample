@@ -153,6 +153,9 @@ MonoBehaviour:
     - name: Calendar
       pathPrefix: UI
       guid: 7e16e4178127513428d753185061aacb
+    - name: Credits
+      pathPrefix: UI
+      guid: c4f2a35432f168b43a85b75ff9eafd32
   - Id: Audio
     Resources: []
   - Id: Scripts
