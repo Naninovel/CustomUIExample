@@ -9,6 +9,9 @@ Testing custom choice handler.
 @choice "Glow Test"
 @stop
 
+Testing custom choice button with pointer enter/exit events.
+@choice button:ChoiceButtons/TestButton pos:0,0 handler:ButtonArea
+@stop
 
 @printer TMProDialogue
 Testing TMPro emoji <sprite=0>.
