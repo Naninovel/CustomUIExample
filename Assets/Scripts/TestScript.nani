@@ -15,6 +15,7 @@ Testing custom choice button with pointer enter/exit events.
 
 @printer TMProDialogue
 Testing TMPro emoji <sprite=0>.
+Testing TMPro <font="Calligraph">font variant</font>.
 
 Now going to show the calendar.
 @showUI Calendar
